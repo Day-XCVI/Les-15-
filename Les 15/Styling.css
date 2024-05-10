@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+    font-family: "montserrat";
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header,
+footer {
+    background-color: bisque;
+    color: #9A463D;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: "montserrat";
+    padding: 10px;
+    color: #333;
+}
+
+.menu a:hover {
+    background-color: rgb(228, 186, 135);
+    color: #9A463D;
+}
+
+.ronde-afbeelding {
+    border-radius: 50%;
+}
